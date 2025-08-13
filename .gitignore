@@ -1,6 +1,39 @@
+# Build outputs
 /build
+**/build/
+!src/**/build/
+
+# IDE files
 /.idea
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/usage.statistics.xml
+.idea/**/dictionaries
+.idea/**/shelf
+.idea/**/dataSources/
+.idea/**/dataSources.ids
+.idea/**/dataSources.local.xml
+.idea/**/sqlDataSources.xml
+.idea/**/dynamic.xml
+.idea/**/uiDesigner.xml
+
+# Gradle
+/.gradle
+.gradle
+gradle-app.setting
+!gradle-wrapper.jar
+*.iws
+*.iml
+*.ipr
+out/
+
+# Kotlin
+/.kotlin
+.kotlin
+
+# IntelliJ plugin specific
+atlassian-ide-plugin.xml
+
+# Other
 /.claude
 /.crush
-/.gradle
-/.kotlin
