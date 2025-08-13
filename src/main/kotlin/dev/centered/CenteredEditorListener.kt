@@ -56,7 +56,7 @@ class CenteredEditorListener : EditorFactoryListener {
 
     // Calculate target content width based on font metrics  
     val fm = contentComponent.getFontMetrics(contentComponent.font)
-    val targetColumns = 120
+    val targetColumns = 80
     val charW = fm.charWidth('M').coerceAtLeast(6)
     val gutterWidth = ex.gutterComponentEx?.width ?: 0
     val targetContentWidth = targetColumns * charW + gutterWidth + settings.extraGutterAllowancePx
